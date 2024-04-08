@@ -1,0 +1,167 @@
+body {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F1FFF5;
+    color: #019E4C;
+}
+
+header {
+    background-color: #F1FFF5;
+    color: #ffffff;
+    padding: 10px;
+    position: relative;
+}
+
+header button {
+    background: none;
+    border: none;
+    color: #019E4C;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+
+nav a {
+    color: #5F8067;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+}
+
+header div img{
+    max-width: 30%;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 20px;
+    margin-left:15px;
+}
+
+h3{
+    margin: 0;
+    color: #5F8067;
+    margin-left: 15px;
+}
+
+h2{
+    font-size:2.5em;
+    text-align: center;
+}
+
+p{
+    color: #5F8067;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+a{
+    color: #5F8067;
+    display: block; 
+    width: fit-content; 
+    margin: 0 auto;
+}
+
+img{
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-style: solid;
+    border-color: #DEB040;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div img{
+    width: 40%; 
+    height: auto;
+    border: none;
+    border-radius: 20px;
+}
+
+ .fotohome{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+ }
+
+footer{
+    background-color: #019E4C;
+    color: #F1FFF5;
+}
+footer p{
+    background-color: #019E4C;
+    color: #F1FFF5;
+}
+
+.materiaal img{
+    width: 25%;
+    margin-top: 15px;
+    margin-bottom: -25px;
+}
+
+.materiaal h2{
+    margin: 0;
+}
+
+.materiaal p{
+    text-align: left;
+}
+.start a:first-child{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-left: 60px;
+}
+.start a:last-child{
+    margin-top: 15px;
+}
+.start{
+    margin-top: 20px;
+    display: flex; 
+    gap: 10px; 
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    header button {
+        display: block;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav ul li {
+        text-align: center;
+    }
+
+    .nav ul.display {
+        display: flex;
+    }
+}
